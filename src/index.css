@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-roboto:"Roboto Mono", monospace;
+}
+
+@layer utilities {
+  .clip-trapezoid {
+    clip-path: polygon(0% 0%, 10% 100%, 90% 100%, 100% 0%);
+  }
+
+  .olive{
+    background-color: #2D3524;
+  }
+  .text-olive{
+    color:#2D3524;
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 1px white;
+  }
+
+  .smaller{
+    height: .2px;
+  }
+
+
+}
